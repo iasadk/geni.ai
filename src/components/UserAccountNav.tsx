@@ -84,7 +84,7 @@ const UserAccountNav = async ({ email, name, imageUrl }: Props) => {
           <DropdownMenuSeparator/>
           <DropdownMenuItem className="cursor-pointer">
             <LogoutLink>
-                <Button className={"w-[200px] h-[30px]"} variant={"destructive"}>Logout</Button>
+                <Button className={"w-[200px] h-[30px] bg-rose-600"} variant={"destructive"}>Logout</Button>
             </LogoutLink>
           </DropdownMenuItem>
         </DropdownMenuContent>

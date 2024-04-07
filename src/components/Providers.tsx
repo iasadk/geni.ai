@@ -9,7 +9,7 @@ const Providers = ({ children }: PropsWithChildren) => {
     trpc.createClient({
       links: [
         httpBatchLink({
-          url: `${process.env.PROD_URL}/api/trpc`,
+          url: `${process.env.NEXT_PUBLIC_PROD_URL}/api/trpc`,
         }),
       ],
     })
